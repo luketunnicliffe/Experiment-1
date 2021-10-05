@@ -19,6 +19,10 @@ function byeFunction(){
     document.body.style.backgroundColor = "#f1f1f1";
 }
 
+const byeFunction2 = () => {
+    document.body.style.backgroundColor = "pink";
+}
+
 //Initalizer
 howdyAdder();
 
@@ -27,5 +31,5 @@ howdyAdder();
 
 pressButton.addEventListener('click', pressFunction);
 
-byeButton.addEventListener('click', byeFunction);
+byeButton.addEventListener('click', byeFunction2);
 
