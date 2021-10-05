@@ -16,11 +16,10 @@ body {
   grid-column-gap: 15px;
 }
 
-.box {
-  background-color: beige;
+.box-one {
+  background-color: dodgerblue;
   color: black;
   border-radius: 5px;
-  border: 2px dodgerblue solid;
 }
 
 .a {
@@ -44,7 +43,7 @@ h2 {
   background-color: whitesmoke;
 }
 
-.box2 {
+.box-two {
   background-color: dodgerblue;
   height: 100px;
   width: 100px;
@@ -52,5 +51,5 @@ h2 {
 }
 
 #flex {
-  display: block;
+  display: flex;
 }
