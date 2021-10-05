@@ -1,5 +1,8 @@
 body {
   background-color: #f1f1f1;
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .grid {
@@ -25,4 +28,29 @@ body {
   grid-column-end: span 2;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.container {
+  background-color: whitesmoke;
+}
+
+.box2 {
+  background-color: dodgerblue;
+  height: 100px;
+  width: 100px;
+  border: 1px solid lightgrey;
+}
+
+#flex {
+  display: block;
 }
