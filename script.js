@@ -27,9 +27,9 @@ const byeFunction2 = () => {
 howdyAdder();
 
 
+pressButton.onclick = pressFunction;
 
-
-pressButton.addEventListener('click', pressFunction);
+//pressButton.addEventListener('click', pressFunction);
 
 byeButton.addEventListener('click', byeFunction2);
 
