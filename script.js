@@ -1,6 +1,8 @@
 const helloDiv = document.getElementById('hello-box');
 const pressButton = document.getElementById('howdy-button');
 const byeButton = document.getElementById('bye-button');
+const helloBox = document.getElementById('hello-box');
+
 
 //Functions
 
@@ -40,3 +42,4 @@ let overusedWords = ['really', 'very', 'basically'];
 let unnecessaryWords = ['extremely', 'literally', 'actually' ];
 
 const storyWords = [story.split()];
+
