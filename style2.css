@@ -3,31 +3,31 @@
   max-width: 900px;
   position: relative;
   margin: auto;
-  grid-template-areas:
-    'head head'
-    'nav nav'
-    'info services'
-    'footer footer';
-  grid-template-rows: 300px 120px 800px 120px;
-  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+}
+
+h1,
+h2 {
+  font-family: monospace;
+  text-align: center;
 }
 
 header {
-  grid-area: head;
+  background-color: dodgerblue;
 }
 
 nav {
-  grid-area: nav;
+  background-color: beige;
 }
 
-.info {
-  grid-area: info;
+.left {
+  background-color: dodgerblue;
 }
 
-.services {
-  grid-area: services;
+.right {
+  background-color: beige;
 }
 
 footer {
-  grid-area: footer;
+  background-color: dodgerblue;
 }
